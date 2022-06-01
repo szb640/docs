@@ -130,7 +130,7 @@ With completely offline use of Chocolatey, you want to ensure you remove the def
 $packageRepo = '<INSERT ODATA REPO URL>'
 
 # If the above $packageRepo repository requires authentication, add the username and password here. Otherwise these leave these as empty strings.
-$repoUsername = ''    # this must be empty is NOT using authentication
+$repoUsername = ''    # this must be empty if NOT using authentication
 $repoPassword = ''    # this must be empty if NOT using authentication
 
 # Determine unzipping method
